@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    
 }
 
 h1{
@@ -11,6 +10,7 @@ h1{
     height: 5rem;
     line-height: 5rem;
 }
+
 .choice{
     height: 160px;
     width: 160px;
@@ -19,24 +19,27 @@ h1{
     display: flex;
     justify-content: center;
     align-items: center;
-    }
+}
 
 .choice:hover{
     cursor: pointer;
     background-color: black;
 }
+
 img{
     height: 150px;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
 }
+
 .options{ 
     display: flex;
     justify-content: center;
     gap: 3rem;
     margin-top: 3rem;
 }
+
 .score-board{
     display: flex;
     text-align: center;
@@ -44,11 +47,13 @@ img{
     font-size: 2rem;
     gap: 3rem;
 }
+
 #user-score , #comp-score{
    font-size: 4rem;
    margin-top: 2rem;
 
 }
+
 #msg{
     border-radius: .5rem;
     font-size: 2rem;
@@ -57,6 +62,7 @@ img{
     display: inline;
     padding: .5rem;
 }
+
 .msg-container{
     margin-top: 3rem;
 }
